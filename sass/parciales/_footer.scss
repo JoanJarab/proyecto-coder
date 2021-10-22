@@ -1,0 +1,24 @@
+/*============================================================================
+                    FOOTER - TODOS
+============================================================================*/
+
+.footer{
+    background-color: rgb(240, 240, 240);
+    padding: 2rem 0 2rem 0;
+  
+  &__navegacion ul{
+    padding-left:0;
+  }
+      
+  
+  &__navegacion li a{
+  text-decoration: none;
+  color: black;
+  }
+  
+  &__navegacion li a:hover{
+    color: rgb(99, 99, 99);
+    }
+  
+  }
+  

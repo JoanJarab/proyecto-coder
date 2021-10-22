@@ -1,0 +1,39 @@
+@import "./parciales/reset";
+@import "./parciales/header";
+@import "./parciales/footer";
+@import "./parciales/home";
+@import "./parciales/nosotros";
+
+
+/* BEM 
+    === Home ===
+header__
+navegacion__
+sliderPrincipal__
+descripcion__
+articulos__
+footer__
+
+    === Nosotros ===
+
+portadaNosotros__
+contenidoNosotros__
+
+
+    === Clientes ===
+
+portadaClientes__
+contenidoClientes__
+
+  === Beneficios ===
+
+portadaBeneficios__
+contenidoBeneficios__
+
+    === Contacto ===
+
+portadaContacto__
+contenidoContacto__
+
+
+*/
