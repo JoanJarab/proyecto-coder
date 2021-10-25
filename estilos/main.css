@@ -16,11 +16,9 @@ html {
                     HEADER - LOGO 
 ============================================================================*/
 .header {
-  height: 8rem; }
+  background-color: #f0f0f0; }
   .header__logo {
     width: 12rem; }
-  .header__barra {
-    height: 8rem; }
 
 /* animacion logo */
 .scale-up-ver-center {
@@ -44,8 +42,8 @@ html {
     transform: scaleY(1); } }
 
 /*============================================================================
-                      MENU HEADER - TODOS
-  ============================================================================*/
+                    MENU HEADER - TODOS
+============================================================================*/
 .navegacion__item {
   font-weight: 700;
   font-size: 1.5rem;
