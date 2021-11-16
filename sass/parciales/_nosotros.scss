@@ -6,21 +6,25 @@
     color: white;
     background-image: url('../../imagenes/portadaNosotros.jpg');
     background-size:cover;
-    background-position: right;
-    height: 25vh;
     background-repeat: no-repeat;
-    padding:0;
-
-
-      background-size: cover;
-      height: 30vh;
-      background-position: top;
+    padding: 0;
+      height: 40vh;
   
   &__callToAction{
   padding:2rem;
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   border-radius: 1.5rem;
+  font-size: 1.4rem;
+  }
+
+  &__btn{
+
+    color:white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem;
+    
   }
   
   }
@@ -65,7 +69,7 @@
     &--bg{
       background-image: url(../../imagenes/equipoNosotros.jpg);
       background-size: cover;
-      height: 30vh;
+
       background-position: top;
     }
     &--txt{

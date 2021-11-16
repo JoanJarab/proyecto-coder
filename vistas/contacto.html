@@ -60,89 +60,61 @@
 
 
 <!--  =================================================================================
-                        MAIN - PORTADA
+                        NOSOTROS - MAIN - PORTADA
 ======================================================================================-->
 
-<main id="main">                    
-    <section class="container-fluid portadaNosotros ">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark portadaNosotros--fondo">
-                    <div class="col-md-6 px-0">
-                        <h2 class="display-4 fst-italic portadaNosotros__titulo">El socio estratégico que necesitas</h1>
-                        <p class="lead my-3 portadaNosotros__texto">Trabajamos los 365 días del año y contamos con envíos gratis a todo el país.</p>
-                        <p class="lead mb-0 portadaNosotros__btn"><a href="../vistas/contacto.html" class="text-white fw-bold">ver más...</a></p>
-                    </div>
-                </div> 
-                    
-            </div>
-        </div>
-</section>     <!-- Fin de Portada-->
+<main class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
 
+            <section class="d-flex justify-content-center align-items-center portadaNosotros">
+                        <div class="text-center portadaNosotros__callToAction">
+                                <h2 class="portadaNosotros__titulo">Nos preocupamos por cada detalle</h1>
+                                <p class="portadaNosotros__texto">Hoy más que nunca, nuestro mundo gira alrededor de una sola motivación, Usted.</p>
+                                <a href="../vistas/contacto.html" class="text-white fw-bold"><button type="button" class="btn btn-dark portadaNosotros__btn">Contacto</button></a>
+                        </div>
+            </section>     <!-- Fin de Portada-->
+        </div>
+    </div>
 
 <!-- =================================================================================
-                        MAIN - CONTENIDO
+                        NOSOTROS - MAIN - CONTENIDO
 ======================================================================================-->
 
 
-        <form action="" method="GET">
-            <fieldset>
-                <legend>Formulario de contacto</legend>
-                <div>
-                    <label for="contactgender">Género:</label>
-                    <input type="radio" name="contactgender" id="contactgender" value="masculino" required>Masculino
-                    <input type="radio" name="contactgender" id="contactgender" value="femenino" required>Femenino
+            <div class="container-fluid text-center contenidoNosotros">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 contenidoNosotros__primerTexto">
+                        <h2 class="contenidoNosotros__titulo2">¿Por qué trabajar con nosotros?</h2>
+                        <p class="contenidoNosotros__texto">Tenemos una alta capacidad de respuesta ante los desafíos de cada cliente y podemos atender pedidos de urgencia y entrega en menos de 24h, diferenciandonos del resto del mercado.
+                        </p>
+                    </div>
+                    <div class="col-md-6 contenidoNosotros--bg">
+                    </div>
+                    <div class="col-md-6 contenidoNosotros--txt">
+                        <h2 class="contenidoNosotros__titulo">NOSOTROS</h2>
+                        <p class="contenidoNosotros__texto">INSOMNIO DIGITAL SAC es una empresa con mas de 10 años de experiencia en
+                            el
+                            mercado local, contamos con un equipo de profesionales dedicados al diseño y producción
+                            integral de las mejores impresiones gráficas, asi como servicios de valor agregado que
+                            ayudan a que su empresa obtenga una identidad única.
+                        </p>
+                        <h2 class="contenidoNosotros__titulo">NUESTROS SERVICIOS</h2>
+                        <p class="contenidoNosotros__texto">Los clientes compran “confianza”, le daremos un diseño único y
+                            original
+                            por impreso, para la identidad de su empresa.
+                            Así transmitirá una imagen corporativa confiable y seria, a un mercado cada vez más
+                            competitivo.
+                        </p>
+                    </div>
+                    
                 </div>
-                <br>
-                <div>
-                    <label for="contactname">Nombre:</label>
-                    <input type="text" name="contactname" id="contactname" placeholder="Escribe tu nombre" required>
-                </div>
-                <br>
-                <div>
-                    <!--no obligatorio-->
-                    <label for="contactsurname">Apellido:</label>
-                    <input type="text" name="contactsurname" id="contactsurname" placeholder="Escribe tu Apellido
-                ">
-                </div>
-                <br>
-                <div>
-                    <label for="contactemail">Correo Electrónico:</label>
-                    <input type="email" name="contactemail" id="contactemail" placeholder="Escribe tu correo" required>
-                </div>
-                <br>
-                <div>
-                    <label for="civilst">Estado Civil:</label>
-                    <select name="civilst" id="civilst" required>
-                        <option value="" disabled selected>Seleccione</option>
-                        <option value="soltero">Soltero/a</option>
-                        <option value="casado">Casado/a</option>
-                        <option value="viudo">Viudo/a</option>
-                        <option value="divorciado">Divorciado/a</option>
-                    </select>
-                </div>
-                <br>
-                <div>
-                    <label for="contactterm">Aceptar términos y condiciones</label>
-                    <input type="checkbox" name="contactterm" id="contactterm" value="1" required>
-                </div>
-                <br>
+            </div>
 
-                <div>
-                    <textarea name="contactcomment" id="contactcomment" cols="50" rows="10"
-                        placeholder="Comentarios aquí" required></textarea>
-                </div>
-                <br>
-                <div>
-                    <input type="reset" value="Limpiar Formulario" name="resetform">
-                    <input type="submit" value="Enviar" name="submitform">
-                </div>
 
-            </fieldset>
-        </form>
-
-    </main>
-    <!-- acaba mi página y empieza el footer-->
+    </main><!-- acaba mi página y empieza el footer-->   
+    
+    
     
 <!-- =================================================================================
                         FOOTER

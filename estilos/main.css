@@ -223,18 +223,20 @@ html {
   color: white;
   background-image: url("../../imagenes/portadaNosotros.jpg");
   background-size: cover;
-  background-position: right;
-  height: 25vh;
   background-repeat: no-repeat;
   padding: 0;
-  background-size: cover;
-  height: 30vh;
-  background-position: top; }
+  height: 40vh; }
   .portadaNosotros__callToAction {
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    border-radius: 1.5rem; }
+    border-radius: 1.5rem;
+    font-size: 1.4rem; }
+  .portadaNosotros__btn {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem; }
 
 .contenidoNosotros {
   background-color: white; }
@@ -272,7 +274,6 @@ html {
   .contenidoNosotros--bg {
     background-image: url(../../imagenes/equipoNosotros.jpg);
     background-size: cover;
-    height: 30vh;
     background-position: top; }
   .contenidoNosotros--txt {
     padding: 4rem; }
