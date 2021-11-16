@@ -60,7 +60,7 @@ html {
 ============================================================================*/
 .footer {
   background-color: #f0f0f0;
-  padding: 2rem 0 2rem 0; }
+  padding: 4rem 0 4rem 0; }
   .footer__navegacion ul {
     padding-left: 0; }
   .footer__navegacion li a {
@@ -80,7 +80,8 @@ html {
     background-color: rgba(255, 255, 255, 0.651);
     color: black;
     border-radius: 15px;
-    max-width: 40vw; }
+    max-width: 40vw;
+    bottom: 15%; }
     @media screen and (max-width: 1440px) {
       .sliderPrincipal__callToAction {
         margin: 10rem auto;
@@ -211,18 +212,24 @@ html {
     width: 80%;
     margin: 0px auto;
     font-size: 1.2rem; }
+  .articulos--btn {
+    margin: 1rem auto;
+    font-size: 1.2rem; }
 
 /*============================================================================
                     NOSOTROS - MAIN - PORTADA
 ============================================================================*/
 .portadaNosotros {
   color: white;
-  background-image: url("../imagenes/portadaNosotros.jpg");
+  background-image: url("../../imagenes/portadaNosotros.jpg");
   background-size: cover;
   background-position: right;
   height: 25vh;
   background-repeat: no-repeat;
-  padding: 0; }
+  padding: 0;
+  background-size: cover;
+  height: 30vh;
+  background-position: top; }
   .portadaNosotros__callToAction {
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -230,27 +237,48 @@ html {
     border-radius: 1.5rem; }
 
 .contenidoNosotros {
-  background-color: white;
-  padding: 2rem 0; }
+  background-color: white; }
   .contenidoNosotros__titulo {
+    text-align: left;
+    font-size: 2.6rem;
+    /* 26px */
+    font-weight: 700;
+    margin: 1.5rem 0;
+    /* 15px */
+    padding: 0 5rem; }
+  .contenidoNosotros__texto {
+    color: black;
+    font-size: 1.6rem;
+    /* 16px */
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.8rem;
+    /* 18px */
+    letter-spacing: 0.1rem;
+    /* 1px */
+    padding: 0 5rem; }
+  .contenidoNosotros__primerTexto {
+    background-color: #f0f0f0;
+    padding: 4rem; }
+  .contenidoNosotros__titulo2 {
     text-align: center;
     font-size: 2.6rem;
     /* 26px */
     font-weight: 700;
     margin: 1.5rem 0;
     /* 15px */ }
-  .contenidoNosotros__texto {
-    color: black;
-    font-size: 1.6rem;
-    /* 16px */
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.8rem;
-    /* 18px */
-    letter-spacing: 0.1rem;
-    /* 1px */ }
+  .contenidoNosotros--img {
+    max-width: 100%; }
+  .contenidoNosotros--bg {
+    background-image: url(../../imagenes/equipoNosotros.jpg);
+    background-size: cover;
+    height: 30vh;
+    background-position: top; }
+  .contenidoNosotros--txt {
+    padding: 4rem; }
 
-/* BEM 
+/* BEM:
+
     === Home ===
 header__
 navegacion__
