@@ -278,6 +278,70 @@ html {
   .contenidoNosotros--txt {
     padding: 4rem; }
 
+/*============================================================================
+                    CONTACTO - MAIN - PORTADA
+============================================================================*/
+.portadaContacto {
+  color: white;
+  background-image: url("../../imagenes/portadaNosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 40vh; }
+  .portadaContacto__callToAction {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 1.5rem;
+    font-size: 1.4rem; }
+  .portadaContacto__btn {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem; }
+
+.contenidoContacto__titulo {
+  text-align: left;
+  font-size: 2.6rem;
+  /* 26px */
+  font-weight: 700;
+  margin: 1.5rem 0;
+  /* 15px */
+  padding: 0 5rem; }
+
+.contenidoContacto__texto {
+  color: white;
+  font-size: 1.6rem;
+  /* 16px */
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.8rem;
+  /* 18px */
+  letter-spacing: 0.1rem;
+  /* 1px */
+  padding: 0 5rem;
+  text-align: center; }
+
+.contenidoContacto__primerTexto {
+  background-color: black;
+  margin: 4rem 0; }
+
+.contenidoContacto__titulo2 {
+  color: white;
+  font-size: 2.6rem;
+  /* 26px */
+  font-weight: 700;
+  margin: 1.5rem 0;
+  /* 15px */ }
+
+.contenidoContacto--bg {
+  background-image: url(../../imagenes/equipoNosotros.jpg);
+  background-size: cover;
+  background-position: top; }
+
+.contenidoContacto--txt {
+  padding: 4rem; }
+
 /* BEM:
 
     === Home ===
