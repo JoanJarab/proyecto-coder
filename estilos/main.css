@@ -12,6 +12,9 @@
 html {
   font-size: 62.5%; }
 
+.footer {
+  margin-top: 4rem; }
+
 /*============================================================================
                     HEADER - LOGO 
 ============================================================================*/
@@ -341,6 +344,25 @@ html {
 
 .contenidoContacto--txt {
   padding: 4rem; }
+
+/* formulario */
+.form-control {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #e6e6e6; }
+
+#formConsultas {
+  font-size: 1.5rem; }
+
+.form-select {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #e6e6e6;
+  text-decoration: none; }
 
 /* BEM:
 
