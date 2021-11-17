@@ -11,6 +11,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../estilos/main.css">
     <title>Insomnio Digital | Tu negocio impreso</title>
 </head>
@@ -67,7 +68,7 @@
         <div class="col-md-12">
 
             <section class="d-flex justify-content-center align-items-center portadaNosotros">
-                        <div class="text-center portadaNosotros__callToAction">
+                        <div class="text-center portadaNosotros__callToAction" data-aos="zoom-in">
                                 <h2 class="portadaNosotros__titulo">Nos preocupamos por cada detalle</h1>
                                 <p class="portadaNosotros__texto">Hoy más que nunca, nuestro mundo gira alrededor de una sola motivación, Usted.</p>
                                 <a href="../vistas/contacto.html" class="text-white fw-bold"><button type="button" class="btn btn-dark portadaNosotros__btn">Contacto</button></a>
@@ -88,7 +89,10 @@
                         <p class="contenidoNosotros__texto">Tenemos una alta capacidad de respuesta ante los desafíos de cada cliente y podemos atender pedidos de urgencia y entrega en menos de 24h, diferenciandonos del resto del mercado.
                         </p>
                     </div>
-                    <div class="col-md-6 contenidoNosotros--bg">
+                    <div class="col-md-6 contenidoNosotros--bg"
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     </div>
                     <div class="col-md-6 contenidoNosotros--txt">
                         <h2 class="contenidoNosotros__titulo">NOSOTROS</h2>
@@ -158,6 +162,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
         </script>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                  AOS.init();
+                </script>
 </body>
 
 </html>

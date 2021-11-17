@@ -11,6 +11,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../estilos/main.css">
     <title>Insomnio Digital | Tu negocio impreso</title>
 </head>
@@ -114,7 +115,78 @@
 
     </main><!-- acaba mi página y empieza el footer-->   
     
-    
+    <section>
+        <h3 id="formContacto" data-aos="fade-down" data-aos-duration="600" data-aos-offset="120" class="aos-init aos-animate">Escríbenos y alguien te contactará pronto</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-horizontal" method="GET">
+
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nombre completo" class="form-control" required="">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="text" placeholder="Teléfono" class="form-control" required="">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" placeholder="Correo electrónico" class="form-control" required="">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="text" placeholder="¿Qué necesitas?" class="form-control">
+                        </div>
+
+                        <div>
+                            <label for="consulta" id="formConsultas">Area de consulta</label>
+                                <select id="areas" class="form-select">
+                                    <option value="1"></option>
+                                    <option value="2">Diseño Gráfico</option>
+                                    <option value="3">Imprenta</option>
+                                    <option value="4">Visual Merchandising</option>
+                                    <option value="5">Otros</option>
+                                </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Dejanos tu mensaje" rows="5"></textarea>
+                        </div>
+
+                        <div class="container">
+
+                            <!-- Button trigger modal -->
+                            <button type="submit" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Enviar
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">¡Muchas gracias!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            Nos comunicaremos con vos en breves
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
     
 <!-- =================================================================================
                         FOOTER
@@ -159,6 +231,10 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
         </script>
 </body>
 
