@@ -12,9 +12,6 @@
 html {
   font-size: 62.5%; }
 
-.footer {
-  margin-top: 4rem; }
-
 /*============================================================================
                     HEADER - LOGO 
 ============================================================================*/
@@ -63,7 +60,8 @@ html {
 ============================================================================*/
 .footer {
   background-color: #f0f0f0;
-  padding: 4rem 0 4rem 0; }
+  padding: 4rem 0 4rem 0;
+  margin-top: 4rem; }
   .footer__navegacion ul {
     padding-left: 0; }
   .footer__navegacion li a {
@@ -196,7 +194,8 @@ html {
                       HOME - MAIN - ARTICULOS
   ============================================================================*/
 .articulos {
-  background-color: white; }
+  background-color: white;
+  overflow: hidden; }
   .articulos__caja {
     background-color: whitesmoke;
     border-radius: 1.5rem;
@@ -280,6 +279,10 @@ html {
     background-position: top; }
   .contenidoNosotros--txt {
     padding: 4rem; }
+
+/* no separar imagen de contenido del footer */
+.footerNosotros {
+  margin-top: 0 !important; }
 
 /*============================================================================
                     CONTACTO - MAIN - PORTADA
@@ -409,6 +412,84 @@ html {
   color: white;
   font-weight: 400;
   background-color: #535353; }
+
+.portadaServicios {
+  color: white;
+  background-image: url("../../imagenes/portadaNosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 40vh; }
+  .portadaServicios__callToAction {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 1.5rem;
+    font-size: 1.4rem; }
+  .portadaServicios__btn {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem; }
+
+.articuloServicio {
+  background-color: white;
+  max-width: 100%; }
+  .articuloServicio__caja {
+    background-color: whitesmoke;
+    border-radius: 1.5rem;
+    padding: 3rem 0;
+    margin: 2rem 0; }
+  .articuloServicio__caja:hover {
+    background-color: #ebebeb; }
+  .articuloServicio__caja--img {
+    height: 30rem;
+    max-width: 90%;
+    border-radius: 1.5rem; }
+  .articuloServicio__caja--titulo {
+    padding: 1rem;
+    font-size: 1.75rem; }
+  .articuloServicio__caja--texto {
+    width: 80%;
+    margin: 0px auto;
+    font-size: 1.2rem; }
+  .articuloServicio--btn {
+    margin: 1rem auto;
+    font-size: 1.2rem; }
+
+.contenidoServicios__titulo {
+  text-align: left;
+  font-size: 2.6rem;
+  /* 26px */
+  font-weight: 700;
+  margin: 1.5rem 0;
+  /* 15px */
+  padding: 0 5rem; }
+
+.contenidoServicios__texto {
+  color: white;
+  font-size: 1.6rem;
+  /* 16px */
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.8rem;
+  /* 18px */
+  letter-spacing: 0.1rem;
+  /* 1px */
+  padding: 0 5rem;
+  text-align: center; }
+
+.contenidoServicios__primerTexto {
+  background-color: black;
+  margin: 4rem 0; }
+
+.contenidoServicios__titulo2 {
+  color: white;
+  font-size: 2.6rem;
+  /* 26px */
+  font-weight: 700;
+  margin: 1.5rem 0;
+  /* 15px */ }
 
 /* BEM:
 

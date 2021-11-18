@@ -1,0 +1,96 @@
+.portadaServicios {
+  color: white;
+  background-image: url("../../imagenes/portadaNosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 40vh;
+
+  &__callToAction {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  &__btn {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem;
+  }
+}
+
+.articuloServicio {
+  background-color: white;
+  max-width: 100%;
+
+  &__caja {
+    background-color: rgb(245, 245, 245);
+    border-radius: 1.5rem;
+    padding: 3rem 0;
+    margin: 2rem 0;
+  }
+  &__caja:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  &__caja--img {
+    height: 30rem;
+    max-width: 90%;
+    border-radius: 1.5rem;
+  }
+
+  &__caja--titulo {
+    padding: 1rem;
+    font-size: 1.75rem;
+  }
+
+  &__caja--texto {
+    width: 80%;
+    margin: 0px auto;
+    font-size: 1.2rem;
+  }
+
+  &--btn {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+  }
+}
+
+
+.contenidoServicios{
+
+  
+  &__titulo{
+    text-align: left;
+    font-size: 2.6rem; /* 26px */
+    font-weight: 700;
+    margin: 1.5rem 0; /* 15px */
+    padding: 0 5rem;
+  }
+
+  &__texto{
+    color: white;
+    font-size: 1.6rem; /* 16px */
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.8rem; /* 18px */
+    letter-spacing: 0.1rem; /* 1px */
+    padding: 0 5rem;
+    text-align: center;
+  }
+  &__primerTexto{
+      background-color: black;
+      margin: 4rem 0;
+      
+  }
+  &__titulo2{
+    color: white;
+    font-size: 2.6rem; /* 26px */
+    font-weight: 700;
+    margin: 1.5rem 0; /* 15px */
+  }
+
+}
