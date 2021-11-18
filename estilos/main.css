@@ -364,6 +364,52 @@ html {
   background-color: #e6e6e6;
   text-decoration: none; }
 
+.portadaClientes {
+  color: white;
+  background-image: url("../../imagenes/portadaNosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 40vh; }
+  .portadaClientes__callToAction {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 1.5rem;
+    font-size: 1.4rem; }
+  .portadaClientes__btn {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-size: 1.2rem; }
+
+.logosClientes__caja {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-radius: 1.5rem;
+  height: 25rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column; }
+
+.logosClientes__caja:hover {
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.81); }
+
+.logosClientes__caja--img {
+  max-height: 15rem;
+  max-width: 15rem; }
+
+.logosClientes--btn {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+  background-color: #535353; }
+
 /* BEM:
 
     === Home ===
