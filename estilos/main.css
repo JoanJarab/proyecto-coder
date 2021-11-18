@@ -17,6 +17,8 @@ html {
 ============================================================================*/
 .header {
   background-color: #f0f0f0; }
+  .header__barra {
+    max-height: 7rem; }
   .header__logo {
     width: 12rem; }
 

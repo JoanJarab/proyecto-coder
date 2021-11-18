@@ -4,6 +4,10 @@
 .header{
   background-color: #f0f0f0;
 
+  &__barra{
+max-height: 7rem;
+  }
+
   &__logo{
     width: 12rem;
   }
